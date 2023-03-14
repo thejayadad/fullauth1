@@ -1,0 +1,23 @@
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: orange;
+    max-width: 500px;
+    max-height: 600px;
+    padding: 30px;
+}
+
+.card-top{
+    display: flex;
+}
+
+.card-img{
+    height: 300px;
+    padding: 30px;
+}
+.card-img img{
+    width: 50%;
+    height: 100%;
+}

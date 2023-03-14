@@ -6,4 +6,21 @@
 
 body{
   font-family: monospace;
+  overflow-x: auto;
+  background: black;
+
 }
+
+
+::-webkit-scrollbar{
+  width: 3px;
+}
+
+::-webkit-scrollbar-track{
+  background: #1c1c1c;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #eee;
+}
+
