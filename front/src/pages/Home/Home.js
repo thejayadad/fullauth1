@@ -5,14 +5,15 @@ import Sidebar from '../../components/sidebar/Sidebar'
 
 import Feed from '../../components/feed/Feed'
 import Post from '../../components/post/Post'
-
+import {Link} from "react-router-dom"
 
 const Home = () => {
   return (
-    <section className='home'>
-        home
-
-    </section>
+   <main>
+    <div className='left'>
+     <Sidebar />
+    </div>
+   </main>
   )
 }
 

@@ -11,8 +11,8 @@ import Feed from "./components/feed/Feed";
 function App() {
   return (
     <>
-    <Sidebar />
-    <Feed />
+<Navbar />
+<Home   />
 
     </>
   );
